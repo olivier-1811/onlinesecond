@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - StudyHub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">StudyHub</div>
+            <ul class="nav-links">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="courses.php">Courses</a></li>
+                <li><a href="about.php" class="active">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="login.php" class="btn-login">Login</a></li>
+                <li><a href="signup.php" class="btn-signup">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>About StudyHub</h1>
+            <p>Empowering learners worldwide with quality education</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2>Our Mission</h2>
+                <p>At StudyHub, we believe that education should be accessible to everyone, regardless of their background or location. Our mission is to provide high-quality, affordable online courses that help students achieve their learning goals and advance their careers.</p>
+
+                <h2>Our Story</h2>
+                <p>Founded in 2024, StudyHub started with a simple vision: to democratize education through the power of the internet. What began as a small project with just 10 courses has grown into a platform with over 1,000 courses and 50,000+ active students from around the world.</p>
+
+                <p>We partner with industry experts, academics, and professionals to create comprehensive, up-to-date course content that reflects current industry standards and best practices.</p>
+
+                <h2>Our Values</h2>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <h3>🎓 Quality</h3>
+                        <p>We maintain rigorous standards for all course content, ensuring every lesson is clear, engaging, and valuable.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>🌍 Accessibility</h3>
+                        <p>Education should be available to everyone. We offer affordable courses and multiple learning formats.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>💡 Innovation</h3>
+                        <p>We continuously improve our platform with new features and technologies to enhance the learning experience.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>🤝 Community</h3>
+                        <p>We foster a supportive community where learners can collaborate, share ideas, and grow together.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section">
+        <div class="container">
+            <h2>Meet Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-avatar">👨‍💼</div>
+                    <h3>John Smith</h3>
+                    <p class="member-role">Founder & CEO</p>
+                    <p class="member-bio">Visionary leader with 15+ years in education technology</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">👩‍💻</div>
+                    <h3>Sarah Lee</h3>
+                    <p class="member-role">Chief Technology Officer</p>
+                    <p class="member-bio">Expert in scalable web technologies and platform design</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">👨‍🏫</div>
+                    <h3>Michael Brown</h3>
+                    <p class="member-role">Head of Content</p>
+                    <p class="member-bio">Curriculum expert with experience in educational design</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">👩‍🔬</div>
+                    <h3>Emily Chen</h3>
+                    <p class="member-role">Head of Student Experience</p>
+                    <p class="member-bio">Dedicated to creating amazing learning experiences</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stat-item">
+                <h3>50,000+</h3>
+                <p>Active Learners</p>
+            </div>
+            <div class="stat-item">
+                <h3>1,000+</h3>
+                <p>Courses</p>
+            </div>
+            <div class="stat-item">
+                <h3>500+</h3>
+                <p>Instructors</p>
+            </div>
+            <div class="stat-item">
+                <h3>98%</h3>
+                <p>Satisfaction Rate</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="container">
+            <h2>Why Choose StudyHub?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-icon">💰</div>
+                    <h3>Affordable Pricing</h3>
+                    <p>Quality education doesn't have to be expensive. Access courses starting at $29.99</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">⏰</div>
+                    <h3>Learn Your Way</h3>
+                    <p>Flexible learning schedule. Access content 24/7 on any device</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">📚</div>
+                    <h3>Comprehensive Content</h3>
+                    <p>From beginner to advanced levels with practical projects and real-world examples</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">👨‍🏫</div>
+                    <h3>Expert Instructors</h3>
+                    <p>Learn from industry professionals with years of practical experience</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">🎓</div>
+                    <h3>Recognized Certificates</h3>
+                    <p>Earn certificates valued by employers and educational institutions</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">🤝</div>
+                    <h3>Supportive Community</h3>
+                    <p>Connect with fellow learners, ask questions, and grow together</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>StudyHub</h4>
+                    <p>Empowering learners worldwide with quality education</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="courses.html">Browse Courses</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 StudyHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
