@@ -37,18 +37,18 @@
                     <div class="user-avatar">👤</div>
                     <h3><?php echo $user['fullname']; ?></h3>
                     <p><?php echo $user['email']; ?></p>
-                </div></section>
+                </div>
            </aside>
             <nav class="sidebar-nav" style="margin-bottom: 50%;">
                 <a href="#" class="nav-item active">📊 Overview</a>
-                <a href="#" class="nav-item">📚 My Courses</a>
+                <a href="course.php" class="nav-item">📚 My Courses</a>
                 <a href="#" class="nav-item">📈 Progress</a>
                 <a href="#" class="nav-item">🎓 Certificates</a>
                 <a href="#" class="nav-item">⚙️ Settings</a>
                 <a href="#" class="nav-item">❓ Help</a>
             </nav>
         
-
+</section>
         <main class="dashboard-content">
 
             <section class="dashboard-section active">
